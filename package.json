@@ -1,0 +1,35 @@
+{
+  "name": "seb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --config nodemon.json ./bin/www & webpack --mode=development --watch",
+    "prestart": "webpack --mode=production",
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "eslint": "^6.3.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^2.0.2",
+    "postcss": "^7.0.26",
+    "sass": "^1.26.3",
+    "svelte": "^3.20.1",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^3.7.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-livereload-plugin": "^2.2.0"
+  }
+}

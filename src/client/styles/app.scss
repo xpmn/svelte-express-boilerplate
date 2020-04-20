@@ -1,0 +1,11 @@
+@import 'src/client/styles/_variables.scss';
+
+body {
+  min-height: 100%;
+  font-family: Helvetica, Arial sans-serif;
+  color: $dark;
+}
+
+.page {
+  text-align: center;
+}
