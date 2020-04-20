@@ -9,6 +9,8 @@ This is minimal svelte.js with express.js boilterplate
 - SASS support
 - Example with global and local styles
 - Example Express API
+- Nodemon
+- ESLint with some config
 
 ## Installation
 
