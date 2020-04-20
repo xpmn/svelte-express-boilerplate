@@ -8,6 +8,7 @@ This is minimal svelte.js with express.js boilterplate
 - Client app development with webpack-dev-server
 - SASS support
 - Example with global and local styles
+- svg-inline-loader to put svg into code like `{@html importedSvg}`
 - Example Express API
 - Nodemon
 - ESLint with some config

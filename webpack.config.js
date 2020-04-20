@@ -135,7 +135,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'SEB',
       filename: 'main.html',
-      meta: {viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
+      meta: {viewport: 'width=device-width, initial-scale=1'},
       chunks: ['vendor', 'main'],
     }),
     new CleanWebpackPlugin(),
