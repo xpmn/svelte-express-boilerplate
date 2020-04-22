@@ -12,6 +12,7 @@ This is minimal svelte.js with express.js boilterplate
 - Example Express API
 - Nodemon
 - ESLint with some config
+- Passing the ENV variables from `.svelte.env` to FE
 
 ## Installation
 
